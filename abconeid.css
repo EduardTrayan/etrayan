@@ -6572,7 +6572,7 @@ button#close:after {
 }
 
 /* line 201, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-primary:not(.mobile):focus, .btn-primary:not(.mobile):hover {
+.btn-primary:not(.mobile):focus, .btn-primary:not(.mobile):hover, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #e2b05e;
 }
 
