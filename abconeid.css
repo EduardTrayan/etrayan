@@ -6524,8 +6524,8 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus, .toggle .n
 /* line 152, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 button#close {
   color: #000;
-  top: 1.4375rem;
-  right: 0.9375rem;
+  top: 1rem;
+  right: 1rem;
   width: 1.625rem;
   height: 1.625rem;
 }
@@ -6533,8 +6533,8 @@ button#close {
 @media screen and (min-width: 29.9375em) {
   /* line 152, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
   button#close {
-    top: 0.9375rem;
-    right: 1.6875rem;
+    top: 1rem;
+    right: 1rem;
   }
 }
 
