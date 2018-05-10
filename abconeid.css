@@ -6524,17 +6524,15 @@ input:not([type="checkbox"]):not([type="radio"]):focus, select:focus, .toggle .n
 /* line 152, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 button#close {
   color: #000;
-  top: 1rem;
-  right: 1rem;
-  width: 1.625rem;
-  height: 1.625rem;
+  top: 1.5rem;
+  right: 1.25rem;
 }
 
 @media screen and (min-width: 29.9375em) {
   /* line 152, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
   button#close {
     top: 1rem;
-    right: 1rem;
+    right: 1.375rem;
   }
 }
 
@@ -6543,7 +6541,7 @@ button#close:hover, button#close:active, button#close:focus {
   color: #000;
 }
 
-/* line 171, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 168, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 button#close:after {
   content: "\e900";
   font-family: 'abc-ui-font';
@@ -6555,16 +6553,16 @@ button#close:after {
   width: auto;
   -webkit-transition: none;
   transition: none;
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 
-/* line 186, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 183, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .btn-group {
   margin-top: 2rem;
   margin-bottom: 0.6875rem;
 }
 
-/* line 191, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 188, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .btn {
   font-size: 0.875rem;
   line-height: 2.75rem;
@@ -6573,18 +6571,18 @@ button#close:after {
   text-align: center;
 }
 
-/* line 199, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 196, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .btn-primary {
   background-color: #e2b05e;
   color: #fff;
 }
 
-/* line 203, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 200, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .btn-primary:not(.mobile):focus, .btn-primary:not(.mobile):hover, .btn-primary:active, .btn-primary.mobile:focus, .btn-primary.mobile:hover {
   background-color: #cb9e54;
 }
 
-/* line 212, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 209, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 button.btn-secondary,
 .btn-secondary {
   background: #b0b0b0;
@@ -6592,7 +6590,7 @@ button.btn-secondary,
   border: none;
 }
 
-/* line 218, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 215, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:not(.mobile):focus, button.btn-secondary:not(.mobile):hover,
 .btn-secondary:hover,
 .btn-secondary:active,
@@ -6603,7 +6601,7 @@ button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:no
   border: none;
 }
 
-/* line 228, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 225, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .toggle label .name {
   text-align: center;
 }
@@ -6611,7 +6609,7 @@ button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:no
 /*  ==========================================================================
     4.  Text
     ========================================================================== */
-/* line 234, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 231, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .title {
   font-size: 1rem;
   font-weight: 200;
@@ -6621,7 +6619,7 @@ button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:no
   margin-bottom: 1.8125rem;
 }
 
-/* line 243, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 240, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .home-address {
   width: 21.25rem;
   height: 1rem;
@@ -6632,7 +6630,7 @@ button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:no
   color: #858585;
 }
 
-/* line 253, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 250, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .workflow-login .block-forgot-password-username p {
   font-size: 0.75rem;
   font-weight: 300;
@@ -6640,7 +6638,7 @@ button.btn-secondary:hover, button.btn-secondary:active, button.btn-secondary:no
   color: #858585;
 }
 
-/* line 260, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
+/* line 257, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
 .block-help-link a {
   color: #4d4d4d;
 }
