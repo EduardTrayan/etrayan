@@ -6375,7 +6375,7 @@ body {
   /* line 24, /var/www/web-php-alderaan-site-abc/src/main/assets/scss/modules/oneid/_modal.scss */
   .wrapper {
     margin-top: 3.5rem;
-    width: 26.25rem;
+    max-width: 26.25rem;
   }
 }
 
